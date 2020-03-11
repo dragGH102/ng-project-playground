@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
+import { ShippingPrice } from "./models/shipping-price";
+import { Observable } from "rxjs";
 
 @Injectable({
   // root - or a specific module by referencing the module class instead
@@ -25,7 +27,7 @@ export class CartService {
     return this.getItems();
   }
 
-  getShippingPrices() {
+  getShippingPrices(): Observable<any[]> {
     return this.http.get('/assets/shipping.json')
   }
 

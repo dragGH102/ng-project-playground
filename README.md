@@ -3,13 +3,10 @@ A sligthly customized version of Angular's `get started` tutorial (https://angul
 - more advanced used of event emitters
 - separate routine module
 - form validators
+- testing: component & service
+- typescript typings
 
 Git commit tree can be improved
-
-(wip)
-- template & controller driven forms
-- testing
-- typescript typings
 
 (later)
 - scss: variables & mixing usages
