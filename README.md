@@ -2,6 +2,7 @@ A sligthly customized version of Angular's `get started` tutorial (https://angul
 - React-style inline template with as-small-as-possible components
 - more advanced used of event emitters
 - separate routine module
+- form validators
 
 Git commit tree can be improved
 
