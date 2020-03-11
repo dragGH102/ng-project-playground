@@ -1,8 +1,12 @@
 A sligthly customized version of Angular's `get started` tutorial (https://angular.io/start)
 - React-style inline template with as-small-as-possible components
 - more advanced used of event emitters
+- separate routine module
+
+Git commit tree can be improved
 
 (wip)
+- template & controller driven forms
 - testing
 - typescript typings
 
