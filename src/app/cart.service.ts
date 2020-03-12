@@ -28,7 +28,7 @@ export class CartService {
   }
 
   getShippingPrices(): Observable<any[]> {
-    return this.http.get('/assets/shipping.json')
+    return <any>this.http.get('/assets/shipping.json')
   }
 
 }
