@@ -1,3 +1,5 @@
+MIT licence https://opensource.org/licenses/MIT
+
 A sligthly customized version of Angular's `get started` tutorial (https://angular.io/start)
 - React-style inline template with as-small-as-possible components
 - more advanced used of event emitters
